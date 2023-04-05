@@ -1,10 +1,11 @@
-import Layout from "../components/Layout"
-export default function Home(){
-  return(
+import Hero from "../components/Hero"
+import Header from "../components/Header"
+export default function Home() {
+  return (
     <section>
-      <Layout>
-        Gmail
-      </Layout>
+      <Header/>
+      <Hero />
+      {/* <Form/> */}
     </section>
   )
 }
